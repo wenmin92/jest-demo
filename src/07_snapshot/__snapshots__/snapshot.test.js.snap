@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<a
+  className="normal"
+  href="http://www.facebook.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Facebook
+</a>
+`;
+
+exports[`renders correctly 1`] = `
+<a
+  className="normal"
+  href="https://example.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Example Site
+</a>
+`;
+
+exports[`snapshot first view 1`] = `"<div id=\\"root\\"><a class=\\"normal\\" href=\\"http://www.facebook.com\\">Facebook</a></div>"`;
+
+exports[`snapshot second view 1`] = `"a string"`;
+
+exports[`snapshot third view 1`] = `
+Object {
+  "date": Any<Date>,
+  "num": 1,
+  "string": "xyz",
+}
+`;
